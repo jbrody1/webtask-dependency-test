@@ -1,0 +1,1623 @@
+Command line output:
+
+$ npm -v
+2.14.7
+$ node -v
+v4.2.3
+$ wt -v
+7.0.1
+$ wt-bundle -v
+3.0.1
+
+$ wt-bundle test.js
+Build failed at generation 1 with errors:
+./~/body-parser/index.js
+Module not found: Error: Can't resolve 'depd' in '~/git/webtask-dependency-test/node_modules/body-parser'
+resolve 'depd' in '~/git/webtask-dependency-test/node_modules/body-parser'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/body-parser/package.json (relative path: .)
+  after using description file: ~/git/webtask-dependency-test/node_modules/body-parser/package.json (relative path: .)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/depd)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/depd doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/depd.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/depd.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/depd doesn't exist
+[~/git/webtask-dependency-test/node_modules/depd]
+[~/git/webtask-dependency-test/node_modules/depd.js]
+[~/git/webtask-dependency-test/node_modules/depd.json]
+[~/git/webtask-dependency-test/node_modules/depd]
+ @ ./~/body-parser/index.js 11:16-31
+ @ ./test.js
+./~/winston/lib/winston.js
+Module not found: Error: Can't resolve 'pkginfo' in '~/git/webtask-dependency-test/node_modules/winston/lib'
+resolve 'pkginfo' in '~/git/webtask-dependency-test/node_modules/winston/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/pkginfo)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/pkginfo doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/pkginfo.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/pkginfo.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/pkginfo doesn't exist
+[~/git/webtask-dependency-test/node_modules/pkginfo]
+[~/git/webtask-dependency-test/node_modules/pkginfo.js]
+[~/git/webtask-dependency-test/node_modules/pkginfo.json]
+[~/git/webtask-dependency-test/node_modules/pkginfo]
+ @ ./~/winston/lib/winston.js 14:0-18
+ @ ./utils.js
+ @ ./test.js
+./~/express/lib/express.js
+Module not found: Error: Can't resolve 'merge-descriptors' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'merge-descriptors' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/merge-descriptors)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/merge-descriptors doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/merge-descriptors.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/merge-descriptors.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/merge-descriptors doesn't exist
+[~/git/webtask-dependency-test/node_modules/merge-descriptors]
+[~/git/webtask-dependency-test/node_modules/merge-descriptors.js]
+[~/git/webtask-dependency-test/node_modules/merge-descriptors.json]
+[~/git/webtask-dependency-test/node_modules/merge-descriptors]
+ @ ./~/express/lib/express.js 16:12-40
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/express.js
+Module not found: Error: Can't resolve 'serve-static' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'serve-static' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/serve-static)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/serve-static doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/serve-static.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/serve-static.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/serve-static doesn't exist
+[~/git/webtask-dependency-test/node_modules/serve-static]
+[~/git/webtask-dependency-test/node_modules/serve-static.js]
+[~/git/webtask-dependency-test/node_modules/serve-static.json]
+[~/git/webtask-dependency-test/node_modules/serve-static]
+ @ ./~/express/lib/express.js 70:17-40
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/application.js
+Module not found: Error: Can't resolve 'depd' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'depd' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/depd)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/depd doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/depd.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/depd.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/depd doesn't exist
+[~/git/webtask-dependency-test/node_modules/depd]
+[~/git/webtask-dependency-test/node_modules/depd.js]
+[~/git/webtask-dependency-test/node_modules/depd.json]
+[~/git/webtask-dependency-test/node_modules/depd]
+ @ ./~/express/lib/application.js 27:16-31
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/request.js
+Module not found: Error: Can't resolve 'depd' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'depd' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/depd)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/depd doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/depd.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/depd.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/depd doesn't exist
+[~/git/webtask-dependency-test/node_modules/depd]
+[~/git/webtask-dependency-test/node_modules/depd.js]
+[~/git/webtask-dependency-test/node_modules/depd.json]
+[~/git/webtask-dependency-test/node_modules/depd]
+ @ ./~/express/lib/request.js 17:16-31
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/response.js
+Module not found: Error: Can't resolve 'depd' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'depd' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/depd)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/depd doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/depd.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/depd.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/depd doesn't exist
+[~/git/webtask-dependency-test/node_modules/depd]
+[~/git/webtask-dependency-test/node_modules/depd.js]
+[~/git/webtask-dependency-test/node_modules/depd.json]
+[~/git/webtask-dependency-test/node_modules/depd]
+ @ ./~/express/lib/response.js 16:16-31
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/winston/lib/winston/common.js
+Module not found: Error: Can't resolve 'cycle' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston'
+resolve 'cycle' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston)
+  after using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/cycle)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/cycle doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/cycle.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/cycle.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/cycle doesn't exist
+[~/git/webtask-dependency-test/node_modules/cycle]
+[~/git/webtask-dependency-test/node_modules/cycle.js]
+[~/git/webtask-dependency-test/node_modules/cycle.json]
+[~/git/webtask-dependency-test/node_modules/cycle]
+ @ ./~/winston/lib/winston/common.js 11:12-28
+ @ ./~/winston/lib/winston.js
+ @ ./utils.js
+ @ ./test.js
+./~/winston/lib/winston/exception.js
+Module not found: Error: Can't resolve 'stack-trace' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston'
+resolve 'stack-trace' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston)
+  after using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/stack-trace)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/stack-trace doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/stack-trace.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/stack-trace.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/stack-trace doesn't exist
+[~/git/webtask-dependency-test/node_modules/stack-trace]
+[~/git/webtask-dependency-test/node_modules/stack-trace.js]
+[~/git/webtask-dependency-test/node_modules/stack-trace.json]
+[~/git/webtask-dependency-test/node_modules/stack-trace]
+ @ ./~/winston/lib/winston/exception.js 10:17-39
+ @ ./~/winston/lib/winston.js
+ @ ./utils.js
+ @ ./test.js
+./~/winston/lib/winston/logger.js
+Module not found: Error: Can't resolve 'async' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston'
+resolve 'async' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston)
+  after using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/async)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/async doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/async.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/async.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/async doesn't exist
+[~/git/webtask-dependency-test/node_modules/async]
+[~/git/webtask-dependency-test/node_modules/async.js]
+[~/git/webtask-dependency-test/node_modules/async.json]
+[~/git/webtask-dependency-test/node_modules/async]
+ @ ./~/winston/lib/winston/logger.js 11:12-28
+ @ ./~/winston/lib/winston.js
+ @ ./utils.js
+ @ ./test.js
+./~/winston/lib/winston/transports/file.js
+Module not found: Error: Can't resolve 'async' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston/transports'
+resolve 'async' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston/transports'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston/transports)
+  after using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston/transports)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/async)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/async doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/async.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/async.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/async doesn't exist
+[~/git/webtask-dependency-test/node_modules/async]
+[~/git/webtask-dependency-test/node_modules/async.js]
+[~/git/webtask-dependency-test/node_modules/async.json]
+[~/git/webtask-dependency-test/node_modules/async]
+ @ ./~/winston/lib/winston/transports/file.js 13:12-28
+ @ ./~/winston/lib/winston/transports ^\.\/.*$
+ @ ./~/winston/lib/winston/transports.js
+ @ ./~/winston/lib/winston.js
+ @ ./utils.js
+ @ ./test.js
+./~/winston/lib/winston/transports/webhook.js
+Module not found: Error: Can't resolve 'cycle' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston/transports'
+resolve 'cycle' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston/transports'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston/transports)
+  after using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston/transports)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/cycle)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/cycle doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/cycle.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/cycle.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/cycle doesn't exist
+[~/git/webtask-dependency-test/node_modules/cycle]
+[~/git/webtask-dependency-test/node_modules/cycle.js]
+[~/git/webtask-dependency-test/node_modules/cycle.json]
+[~/git/webtask-dependency-test/node_modules/cycle]
+ @ ./~/winston/lib/winston/transports/webhook.js 13:12-28
+ @ ./~/winston/lib/winston/transports ^\.\/.*$
+ @ ./~/winston/lib/winston/transports.js
+ @ ./~/winston/lib/winston.js
+ @ ./utils.js
+ @ ./test.js
+./~/winston/lib/winston/config.js
+Module not found: Error: Can't resolve 'colors/safe' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston'
+resolve 'colors/safe' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston)
+  after using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/colors/safe)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/colors/safe doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/colors/safe.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/colors/safe.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/colors/safe doesn't exist
+[~/git/webtask-dependency-test/node_modules/colors/safe]
+[~/git/webtask-dependency-test/node_modules/colors/safe.js]
+[~/git/webtask-dependency-test/node_modules/colors/safe.json]
+[~/git/webtask-dependency-test/node_modules/colors/safe]
+ @ ./~/winston/lib/winston/config.js 9:13-35
+ @ ./~/winston/lib/winston.js
+ @ ./utils.js
+ @ ./test.js
+./~/express/lib/application.js
+Module not found: Error: Can't resolve 'finalhandler' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'finalhandler' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/finalhandler)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/finalhandler doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/finalhandler.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/finalhandler.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/finalhandler doesn't exist
+[~/git/webtask-dependency-test/node_modules/finalhandler]
+[~/git/webtask-dependency-test/node_modules/finalhandler.js]
+[~/git/webtask-dependency-test/node_modules/finalhandler.json]
+[~/git/webtask-dependency-test/node_modules/finalhandler]
+ @ ./~/express/lib/application.js 16:19-42
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/application.js
+Module not found: Error: Can't resolve 'methods' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'methods' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/methods)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/methods doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/methods.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/methods.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/methods doesn't exist
+[~/git/webtask-dependency-test/node_modules/methods]
+[~/git/webtask-dependency-test/node_modules/methods.js]
+[~/git/webtask-dependency-test/node_modules/methods.json]
+[~/git/webtask-dependency-test/node_modules/methods]
+ @ ./~/express/lib/application.js 18:14-32
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/router/route.js
+Module not found: Error: Can't resolve 'methods' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+resolve 'methods' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/methods)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/methods doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/methods.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/methods.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/methods doesn't exist
+[~/git/webtask-dependency-test/node_modules/methods]
+[~/git/webtask-dependency-test/node_modules/methods.js]
+[~/git/webtask-dependency-test/node_modules/methods.json]
+[~/git/webtask-dependency-test/node_modules/methods]
+ @ ./~/express/lib/router/route.js 19:14-32
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/application.js
+Module not found: Error: Can't resolve 'debug' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'debug' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/debug)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/debug doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/debug.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/debug.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/debug doesn't exist
+[~/git/webtask-dependency-test/node_modules/debug]
+[~/git/webtask-dependency-test/node_modules/debug.js]
+[~/git/webtask-dependency-test/node_modules/debug.json]
+[~/git/webtask-dependency-test/node_modules/debug]
+ @ ./~/express/lib/application.js 21:12-28
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/router/route.js
+Module not found: Error: Can't resolve 'debug' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+resolve 'debug' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/debug)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/debug doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/debug.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/debug.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/debug doesn't exist
+[~/git/webtask-dependency-test/node_modules/debug]
+[~/git/webtask-dependency-test/node_modules/debug.js]
+[~/git/webtask-dependency-test/node_modules/debug.json]
+[~/git/webtask-dependency-test/node_modules/debug]
+ @ ./~/express/lib/router/route.js 16:12-28
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/application.js
+Module not found: Error: Can't resolve 'array-flatten' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'array-flatten' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/array-flatten)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/array-flatten doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/array-flatten.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/array-flatten.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/array-flatten doesn't exist
+[~/git/webtask-dependency-test/node_modules/array-flatten]
+[~/git/webtask-dependency-test/node_modules/array-flatten.js]
+[~/git/webtask-dependency-test/node_modules/array-flatten.json]
+[~/git/webtask-dependency-test/node_modules/array-flatten]
+ @ ./~/express/lib/application.js 28:14-38
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/router/route.js
+Module not found: Error: Can't resolve 'array-flatten' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+resolve 'array-flatten' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/array-flatten)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/array-flatten doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/array-flatten.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/array-flatten.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/array-flatten doesn't exist
+[~/git/webtask-dependency-test/node_modules/array-flatten]
+[~/git/webtask-dependency-test/node_modules/array-flatten.js]
+[~/git/webtask-dependency-test/node_modules/array-flatten.json]
+[~/git/webtask-dependency-test/node_modules/array-flatten]
+ @ ./~/express/lib/router/route.js 17:14-38
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/application.js
+Module not found: Error: Can't resolve 'utils-merge' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'utils-merge' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/utils-merge)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/utils-merge doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/utils-merge.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/utils-merge.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/utils-merge doesn't exist
+[~/git/webtask-dependency-test/node_modules/utils-merge]
+[~/git/webtask-dependency-test/node_modules/utils-merge.js]
+[~/git/webtask-dependency-test/node_modules/utils-merge.json]
+[~/git/webtask-dependency-test/node_modules/utils-merge]
+ @ ./~/express/lib/application.js 29:12-34
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/response.js
+Module not found: Error: Can't resolve 'utils-merge' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'utils-merge' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/utils-merge)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/utils-merge doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/utils-merge.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/utils-merge.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/utils-merge doesn't exist
+[~/git/webtask-dependency-test/node_modules/utils-merge]
+[~/git/webtask-dependency-test/node_modules/utils-merge.js]
+[~/git/webtask-dependency-test/node_modules/utils-merge.json]
+[~/git/webtask-dependency-test/node_modules/utils-merge]
+ @ ./~/express/lib/response.js 23:12-34
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/router/index.js
+Module not found: Error: Can't resolve 'methods' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+resolve 'methods' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/methods)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/methods doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/methods.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/methods.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/methods doesn't exist
+[~/git/webtask-dependency-test/node_modules/methods]
+[~/git/webtask-dependency-test/node_modules/methods.js]
+[~/git/webtask-dependency-test/node_modules/methods.json]
+[~/git/webtask-dependency-test/node_modules/methods]
+ @ ./~/express/lib/router/index.js 18:14-32
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/router/index.js
+Module not found: Error: Can't resolve 'utils-merge' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+resolve 'utils-merge' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/utils-merge)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/utils-merge doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/utils-merge.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/utils-merge.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/utils-merge doesn't exist
+[~/git/webtask-dependency-test/node_modules/utils-merge]
+[~/git/webtask-dependency-test/node_modules/utils-merge.js]
+[~/git/webtask-dependency-test/node_modules/utils-merge.json]
+[~/git/webtask-dependency-test/node_modules/utils-merge]
+ @ ./~/express/lib/router/index.js 19:12-34
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/router/index.js
+Module not found: Error: Can't resolve 'debug' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+resolve 'debug' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/debug)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/debug doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/debug.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/debug.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/debug doesn't exist
+[~/git/webtask-dependency-test/node_modules/debug]
+[~/git/webtask-dependency-test/node_modules/debug.js]
+[~/git/webtask-dependency-test/node_modules/debug.json]
+[~/git/webtask-dependency-test/node_modules/debug]
+ @ ./~/express/lib/router/index.js 20:12-28
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/router/index.js
+Module not found: Error: Can't resolve 'depd' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+resolve 'depd' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/depd)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/depd doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/depd.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/depd.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/depd doesn't exist
+[~/git/webtask-dependency-test/node_modules/depd]
+[~/git/webtask-dependency-test/node_modules/depd.js]
+[~/git/webtask-dependency-test/node_modules/depd.json]
+[~/git/webtask-dependency-test/node_modules/depd]
+ @ ./~/express/lib/router/index.js 21:16-31
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/router/index.js
+Module not found: Error: Can't resolve 'array-flatten' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+resolve 'array-flatten' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/array-flatten)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/array-flatten doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/array-flatten.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/array-flatten.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/array-flatten doesn't exist
+[~/git/webtask-dependency-test/node_modules/array-flatten]
+[~/git/webtask-dependency-test/node_modules/array-flatten.js]
+[~/git/webtask-dependency-test/node_modules/array-flatten.json]
+[~/git/webtask-dependency-test/node_modules/array-flatten]
+ @ ./~/express/lib/router/index.js 22:14-38
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/request.js
+Module not found: Error: Can't resolve 'accepts' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'accepts' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/accepts)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/accepts doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/accepts.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/accepts.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/accepts doesn't exist
+[~/git/webtask-dependency-test/node_modules/accepts]
+[~/git/webtask-dependency-test/node_modules/accepts.js]
+[~/git/webtask-dependency-test/node_modules/accepts.json]
+[~/git/webtask-dependency-test/node_modules/accepts]
+ @ ./~/express/lib/request.js 16:14-32
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/request.js
+Module not found: Error: Can't resolve 'type-is' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'type-is' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/type-is)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/type-is doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/type-is.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/type-is.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/type-is doesn't exist
+[~/git/webtask-dependency-test/node_modules/type-is]
+[~/git/webtask-dependency-test/node_modules/type-is.js]
+[~/git/webtask-dependency-test/node_modules/type-is.json]
+[~/git/webtask-dependency-test/node_modules/type-is]
+ @ ./~/express/lib/request.js 19:13-31
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/request.js
+Module not found: Error: Can't resolve 'fresh' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'fresh' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/fresh)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/fresh doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/fresh.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/fresh.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/fresh doesn't exist
+[~/git/webtask-dependency-test/node_modules/fresh]
+[~/git/webtask-dependency-test/node_modules/fresh.js]
+[~/git/webtask-dependency-test/node_modules/fresh.json]
+[~/git/webtask-dependency-test/node_modules/fresh]
+ @ ./~/express/lib/request.js 21:12-28
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/request.js
+Module not found: Error: Can't resolve 'range-parser' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'range-parser' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/range-parser)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/range-parser doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/range-parser.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/range-parser.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/range-parser doesn't exist
+[~/git/webtask-dependency-test/node_modules/range-parser]
+[~/git/webtask-dependency-test/node_modules/range-parser.js]
+[~/git/webtask-dependency-test/node_modules/range-parser.json]
+[~/git/webtask-dependency-test/node_modules/range-parser]
+ @ ./~/express/lib/request.js 22:17-40
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/request.js
+Module not found: Error: Can't resolve 'parseurl' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'parseurl' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/parseurl)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/parseurl doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/parseurl.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/parseurl.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/parseurl doesn't exist
+[~/git/webtask-dependency-test/node_modules/parseurl]
+[~/git/webtask-dependency-test/node_modules/parseurl.js]
+[~/git/webtask-dependency-test/node_modules/parseurl.json]
+[~/git/webtask-dependency-test/node_modules/parseurl]
+ @ ./~/express/lib/request.js 23:12-31
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/middleware/query.js
+Module not found: Error: Can't resolve 'parseurl' in '~/git/webtask-dependency-test/node_modules/express/lib/middleware'
+resolve 'parseurl' in '~/git/webtask-dependency-test/node_modules/express/lib/middleware'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/middleware)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/middleware)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/parseurl)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/parseurl doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/parseurl.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/parseurl.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/parseurl doesn't exist
+[~/git/webtask-dependency-test/node_modules/parseurl]
+[~/git/webtask-dependency-test/node_modules/parseurl.js]
+[~/git/webtask-dependency-test/node_modules/parseurl.json]
+[~/git/webtask-dependency-test/node_modules/parseurl]
+ @ ./~/express/lib/middleware/query.js 15:15-34
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/router/index.js
+Module not found: Error: Can't resolve 'parseurl' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+resolve 'parseurl' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/parseurl)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/parseurl doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/parseurl.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/parseurl.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/parseurl doesn't exist
+[~/git/webtask-dependency-test/node_modules/parseurl]
+[~/git/webtask-dependency-test/node_modules/parseurl.js]
+[~/git/webtask-dependency-test/node_modules/parseurl.json]
+[~/git/webtask-dependency-test/node_modules/parseurl]
+ @ ./~/express/lib/router/index.js 23:15-34
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/request.js
+Module not found: Error: Can't resolve 'proxy-addr' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'proxy-addr' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/proxy-addr)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/proxy-addr doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/proxy-addr.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/proxy-addr.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/proxy-addr doesn't exist
+[~/git/webtask-dependency-test/node_modules/proxy-addr]
+[~/git/webtask-dependency-test/node_modules/proxy-addr.js]
+[~/git/webtask-dependency-test/node_modules/proxy-addr.json]
+[~/git/webtask-dependency-test/node_modules/proxy-addr]
+ @ ./~/express/lib/request.js 24:16-37
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/response.js
+Module not found: Error: Can't resolve 'content-disposition' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'content-disposition' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/content-disposition)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/content-disposition doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/content-disposition.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/content-disposition.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/content-disposition doesn't exist
+[~/git/webtask-dependency-test/node_modules/content-disposition]
+[~/git/webtask-dependency-test/node_modules/content-disposition.js]
+[~/git/webtask-dependency-test/node_modules/content-disposition.json]
+[~/git/webtask-dependency-test/node_modules/content-disposition]
+ @ ./~/express/lib/response.js 15:25-55
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/response.js
+Module not found: Error: Can't resolve 'encodeurl' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'encodeurl' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/encodeurl)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/encodeurl doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/encodeurl.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/encodeurl.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/encodeurl doesn't exist
+[~/git/webtask-dependency-test/node_modules/encodeurl]
+[~/git/webtask-dependency-test/node_modules/encodeurl.js]
+[~/git/webtask-dependency-test/node_modules/encodeurl.json]
+[~/git/webtask-dependency-test/node_modules/encodeurl]
+ @ ./~/express/lib/response.js 17:16-36
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/response.js
+Module not found: Error: Can't resolve 'escape-html' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'escape-html' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/escape-html)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/escape-html doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/escape-html.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/escape-html.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/escape-html doesn't exist
+[~/git/webtask-dependency-test/node_modules/escape-html]
+[~/git/webtask-dependency-test/node_modules/escape-html.js]
+[~/git/webtask-dependency-test/node_modules/escape-html.json]
+[~/git/webtask-dependency-test/node_modules/escape-html]
+ @ ./~/express/lib/response.js 18:17-39
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/response.js
+Module not found: Error: Can't resolve 'on-finished' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'on-finished' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/on-finished)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/on-finished doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/on-finished.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/on-finished.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/on-finished doesn't exist
+[~/git/webtask-dependency-test/node_modules/on-finished]
+[~/git/webtask-dependency-test/node_modules/on-finished.js]
+[~/git/webtask-dependency-test/node_modules/on-finished.json]
+[~/git/webtask-dependency-test/node_modules/on-finished]
+ @ ./~/express/lib/response.js 21:17-39
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/response.js
+Module not found: Error: Can't resolve 'cookie-signature' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'cookie-signature' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/cookie-signature)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/cookie-signature doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/cookie-signature.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/cookie-signature.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/cookie-signature doesn't exist
+[~/git/webtask-dependency-test/node_modules/cookie-signature]
+[~/git/webtask-dependency-test/node_modules/cookie-signature.js]
+[~/git/webtask-dependency-test/node_modules/cookie-signature.json]
+[~/git/webtask-dependency-test/node_modules/cookie-signature]
+ @ ./~/express/lib/response.js 24:11-38
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/response.js
+Module not found: Error: Can't resolve 'cookie' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'cookie' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/cookie)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/cookie doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/cookie.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/cookie.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/cookie doesn't exist
+[~/git/webtask-dependency-test/node_modules/cookie]
+[~/git/webtask-dependency-test/node_modules/cookie.js]
+[~/git/webtask-dependency-test/node_modules/cookie.json]
+[~/git/webtask-dependency-test/node_modules/cookie]
+ @ ./~/express/lib/response.js 29:13-30
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/response.js
+Module not found: Error: Can't resolve 'send' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'send' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/send)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/send doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/send.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/send.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/send doesn't exist
+[~/git/webtask-dependency-test/node_modules/send]
+[~/git/webtask-dependency-test/node_modules/send.js]
+[~/git/webtask-dependency-test/node_modules/send.json]
+[~/git/webtask-dependency-test/node_modules/send]
+ @ ./~/express/lib/response.js 30:11-26
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/response.js
+Module not found: Error: Can't resolve 'vary' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'vary' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/vary)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/vary doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/vary.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/vary.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/vary doesn't exist
+[~/git/webtask-dependency-test/node_modules/vary]
+[~/git/webtask-dependency-test/node_modules/vary.js]
+[~/git/webtask-dependency-test/node_modules/vary.json]
+[~/git/webtask-dependency-test/node_modules/vary]
+ @ ./~/express/lib/response.js 34:11-26
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/middleware/query.js
+Module not found: Error: Can't resolve 'qs' in '~/git/webtask-dependency-test/node_modules/express/lib/middleware'
+resolve 'qs' in '~/git/webtask-dependency-test/node_modules/express/lib/middleware'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/middleware)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/middleware)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/qs)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/qs doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/qs.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/qs.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/qs doesn't exist
+[~/git/webtask-dependency-test/node_modules/qs]
+[~/git/webtask-dependency-test/node_modules/qs.js]
+[~/git/webtask-dependency-test/node_modules/qs.json]
+[~/git/webtask-dependency-test/node_modules/qs]
+ @ ./~/express/lib/middleware/query.js 16:9-22
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/promise/lib/node-extensions.js
+Module not found: Error: Can't resolve 'asap' in '~/git/webtask-dependency-test/node_modules/promise/lib'
+resolve 'asap' in '~/git/webtask-dependency-test/node_modules/promise/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/promise/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/promise/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/asap)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/asap doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/asap.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/asap.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/asap doesn't exist
+[~/git/webtask-dependency-test/node_modules/asap]
+[~/git/webtask-dependency-test/node_modules/asap.js]
+[~/git/webtask-dependency-test/node_modules/asap.json]
+[~/git/webtask-dependency-test/node_modules/asap]
+ @ ./~/promise/lib/node-extensions.js 7:11-26
+ @ ./~/promise/lib/index.js
+ @ ./~/promise/index.js
+ @ ./test.js
+./~/promise/lib/core.js
+Module not found: Error: Can't resolve 'asap/raw' in '~/git/webtask-dependency-test/node_modules/promise/lib'
+resolve 'asap/raw' in '~/git/webtask-dependency-test/node_modules/promise/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/promise/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/promise/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/asap/raw)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/asap/raw doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/asap/raw.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/asap/raw.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/asap/raw doesn't exist
+[~/git/webtask-dependency-test/node_modules/asap/raw]
+[~/git/webtask-dependency-test/node_modules/asap/raw.js]
+[~/git/webtask-dependency-test/node_modules/asap/raw.json]
+[~/git/webtask-dependency-test/node_modules/asap/raw]
+ @ ./~/promise/lib/core.js 3:11-30
+ @ ./~/promise/lib/index.js
+ @ ./~/promise/index.js
+ @ ./test.js
+./~/promise/lib/es6-extensions.js
+Module not found: Error: Can't resolve 'asap/raw' in '~/git/webtask-dependency-test/node_modules/promise/lib'
+resolve 'asap/raw' in '~/git/webtask-dependency-test/node_modules/promise/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/promise/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/promise/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/asap/raw)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/asap/raw doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/asap/raw.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/asap/raw.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/asap/raw doesn't exist
+[~/git/webtask-dependency-test/node_modules/asap/raw]
+[~/git/webtask-dependency-test/node_modules/asap/raw.js]
+[~/git/webtask-dependency-test/node_modules/asap/raw.json]
+[~/git/webtask-dependency-test/node_modules/asap/raw]
+ @ ./~/promise/lib/es6-extensions.js 6:11-30
+ @ ./~/promise/lib/index.js
+ @ ./~/promise/index.js
+ @ ./test.js
+./~/express/lib/view.js
+Module not found: Error: Can't resolve 'debug' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'debug' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/debug)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/debug doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/debug.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/debug.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/debug doesn't exist
+[~/git/webtask-dependency-test/node_modules/debug]
+[~/git/webtask-dependency-test/node_modules/debug.js]
+[~/git/webtask-dependency-test/node_modules/debug.json]
+[~/git/webtask-dependency-test/node_modules/debug]
+ @ ./~/express/lib/view.js 16:12-28
+ @ ./~/express/lib/application.js
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/utils.js
+Module not found: Error: Can't resolve 'content-disposition' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'content-disposition' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/content-disposition)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/content-disposition doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/content-disposition.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/content-disposition.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/content-disposition doesn't exist
+[~/git/webtask-dependency-test/node_modules/content-disposition]
+[~/git/webtask-dependency-test/node_modules/content-disposition.js]
+[~/git/webtask-dependency-test/node_modules/content-disposition.json]
+[~/git/webtask-dependency-test/node_modules/content-disposition]
+ @ ./~/express/lib/utils.js 15:25-55
+ @ ./~/express/lib/application.js
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/utils.js
+Module not found: Error: Can't resolve 'depd' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'depd' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/depd)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/depd doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/depd.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/depd.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/depd doesn't exist
+[~/git/webtask-dependency-test/node_modules/depd]
+[~/git/webtask-dependency-test/node_modules/depd.js]
+[~/git/webtask-dependency-test/node_modules/depd.json]
+[~/git/webtask-dependency-test/node_modules/depd]
+ @ ./~/express/lib/utils.js 17:16-31
+ @ ./~/express/lib/application.js
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/utils.js
+Module not found: Error: Can't resolve 'array-flatten' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'array-flatten' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/array-flatten)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/array-flatten doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/array-flatten.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/array-flatten.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/array-flatten doesn't exist
+[~/git/webtask-dependency-test/node_modules/array-flatten]
+[~/git/webtask-dependency-test/node_modules/array-flatten.js]
+[~/git/webtask-dependency-test/node_modules/array-flatten.json]
+[~/git/webtask-dependency-test/node_modules/array-flatten]
+ @ ./~/express/lib/utils.js 18:14-38
+ @ ./~/express/lib/application.js
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/utils.js
+Module not found: Error: Can't resolve 'send' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'send' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/send)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/send doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/send.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/send.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/send doesn't exist
+[~/git/webtask-dependency-test/node_modules/send]
+[~/git/webtask-dependency-test/node_modules/send.js]
+[~/git/webtask-dependency-test/node_modules/send.json]
+[~/git/webtask-dependency-test/node_modules/send]
+ @ ./~/express/lib/utils.js 19:11-26
+ @ ./~/express/lib/application.js
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/utils.js
+Module not found: Error: Can't resolve 'proxy-addr' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'proxy-addr' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/proxy-addr)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/proxy-addr doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/proxy-addr.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/proxy-addr.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/proxy-addr doesn't exist
+[~/git/webtask-dependency-test/node_modules/proxy-addr]
+[~/git/webtask-dependency-test/node_modules/proxy-addr.js]
+[~/git/webtask-dependency-test/node_modules/proxy-addr.json]
+[~/git/webtask-dependency-test/node_modules/proxy-addr]
+ @ ./~/express/lib/utils.js 22:16-37
+ @ ./~/express/lib/application.js
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/utils.js
+Module not found: Error: Can't resolve 'qs' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'qs' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/qs)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/qs doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/qs.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/qs.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/qs doesn't exist
+[~/git/webtask-dependency-test/node_modules/qs]
+[~/git/webtask-dependency-test/node_modules/qs.js]
+[~/git/webtask-dependency-test/node_modules/qs.json]
+[~/git/webtask-dependency-test/node_modules/qs]
+ @ ./~/express/lib/utils.js 23:9-22
+ @ ./~/express/lib/application.js
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/router/layer.js
+Module not found: Error: Can't resolve 'debug' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+resolve 'debug' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/debug)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/debug doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/debug.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/debug.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/debug doesn't exist
+[~/git/webtask-dependency-test/node_modules/debug]
+[~/git/webtask-dependency-test/node_modules/debug.js]
+[~/git/webtask-dependency-test/node_modules/debug.json]
+[~/git/webtask-dependency-test/node_modules/debug]
+ @ ./~/express/lib/router/layer.js 17:12-28
+ @ ./~/express/lib/router/route.js
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/winston/lib/winston/transports/file.js
+Module not found: Error: Can't resolve 'isstream' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston/transports'
+resolve 'isstream' in '~/git/webtask-dependency-test/node_modules/winston/lib/winston/transports'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston/transports)
+  after using description file: ~/git/webtask-dependency-test/node_modules/winston/package.json (relative path: ./lib/winston/transports)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/isstream)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/isstream doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/isstream.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/isstream.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/isstream doesn't exist
+[~/git/webtask-dependency-test/node_modules/isstream]
+[~/git/webtask-dependency-test/node_modules/isstream.js]
+[~/git/webtask-dependency-test/node_modules/isstream.json]
+[~/git/webtask-dependency-test/node_modules/isstream]
+ @ ./~/winston/lib/winston/transports/file.js 16:17-36
+ @ ./~/winston/lib/winston/transports ^\.\/.*$
+ @ ./~/winston/lib/winston/transports.js
+ @ ./~/winston/lib/winston.js
+ @ ./utils.js
+ @ ./test.js
+./~/express/lib/utils.js
+Module not found: Error: Can't resolve 'content-type' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'content-type' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/content-type)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/content-type doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/content-type.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/content-type.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/content-type doesn't exist
+[~/git/webtask-dependency-test/node_modules/content-type]
+[~/git/webtask-dependency-test/node_modules/content-type.js]
+[~/git/webtask-dependency-test/node_modules/content-type.json]
+[~/git/webtask-dependency-test/node_modules/content-type]
+ @ ./~/express/lib/utils.js 16:18-41
+ @ ./~/express/lib/application.js
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/utils.js
+Module not found: Error: Can't resolve 'etag' in '~/git/webtask-dependency-test/node_modules/express/lib'
+resolve 'etag' in '~/git/webtask-dependency-test/node_modules/express/lib'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/etag)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/etag doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/etag.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/etag.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/etag doesn't exist
+[~/git/webtask-dependency-test/node_modules/etag]
+[~/git/webtask-dependency-test/node_modules/etag.js]
+[~/git/webtask-dependency-test/node_modules/etag.json]
+[~/git/webtask-dependency-test/node_modules/etag]
+ @ ./~/express/lib/utils.js 21:11-26
+ @ ./~/express/lib/application.js
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+./~/express/lib/router/layer.js
+Module not found: Error: Can't resolve 'path-to-regexp' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+resolve 'path-to-regexp' in '~/git/webtask-dependency-test/node_modules/express/lib/router'
+  Parsed request is a module
+  using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+  after using description file: ~/git/webtask-dependency-test/node_modules/express/package.json (relative path: ./lib/router)
+    resolve as module
+      looking for modules in ~/git/webtask-dependency-test/node_modules
+        using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+        after using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules)
+          using description file: ~/git/webtask-dependency-test/package.json (relative path: ./node_modules/path-to-regexp)
+            no extension
+              ~/git/webtask-dependency-test/node_modules/path-to-regexp doesn't exist
+            .js
+              ~/git/webtask-dependency-test/node_modules/path-to-regexp.js doesn't exist
+            .json
+              ~/git/webtask-dependency-test/node_modules/path-to-regexp.json doesn't exist
+            as directory
+              ~/git/webtask-dependency-test/node_modules/path-to-regexp doesn't exist
+[~/git/webtask-dependency-test/node_modules/path-to-regexp]
+[~/git/webtask-dependency-test/node_modules/path-to-regexp.js]
+[~/git/webtask-dependency-test/node_modules/path-to-regexp.json]
+[~/git/webtask-dependency-test/node_modules/path-to-regexp]
+ @ ./~/express/lib/router/layer.js 16:17-42
+ @ ./~/express/lib/router/route.js
+ @ ./~/express/lib/express.js
+ @ ./~/express/index.js
+ @ ./test.js
+
+
+
+
+
